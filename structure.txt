@@ -1,0 +1,22 @@
+ukoly21-docker/
+├── app/
+│   ├── Forms/
+│   ├── Models/
+│   ├── Presenters/
+│   └── Templates/
+│       ├── Homepage/
+│       ├── Sign/
+│       └── Dashboard/
+├── www/
+│   ├── index.php
+│   └── assets/
+│       └── css/
+│           └── style.css  ← stylování webu
+├── docker/
+│   ├── php/
+│   │   └── Dockerfile     ← PHP + Apache
+│   └── db/
+│       └── init.sql       ← SQL dump (users, tasks)
+├── docker-compose.yml     ← orchestrace všech služeb
+├── composer.json          ← závislosti Nette
+├── README.md              ← návod ke spuštění
